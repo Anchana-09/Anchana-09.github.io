@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+	background-image: url("pineapple.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Indie Flower', cursive;	
+}
+
+.navbar, .btn-outline-success {
+	background-color: rgba(255, 202, 95, 0.3);
+	border-color: rgba(255, 202, 95, 0.1);
+	color: rgb(99, 66, 0);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn-outline-success, .form-control {
+	padding: 0px 12px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	padding: 110px 90px;
+	font-size: 4rem;
+}
+
+hr {
+	max-width: 70px;
+  	border-width: 3px;
+  	border-color: black;
+  	
+}
+
+.container {
+	transition: all 1s;
+}
+
+.container:hover {
+	transform: scale(1.1);
+}
+
+.btn-outline-danger {
+	background-color: rgba(255, 202, 95, 0.3);
+	border-color: rgba(255, 202, 95, 0.5);
+	color: rgb(99, 66, 0);
+	font-size: 30px;
+}
+
+.btn-outline-danger:hover, .btn-outline-success:hover {
+	background-color: rgba(255, 202, 95, 0.6);
+	border-color: rgba(255, 202, 95, 0.8);
+}
